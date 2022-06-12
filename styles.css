@@ -23,13 +23,13 @@ h2 {
     background-color: cornflowerblue;
     color:aliceblue
   }
-.paragraph{
+p.paragraph{
     margin-top: 10px;
     margin-bottom: 100px;
     margin-right: 80px;
     margin-left: 80px; 
 }
-.funParagraph{
+p.funParagraph{
     margin-top: 10px;
     margin-bottom: 100px;
     margin-right: 80px;

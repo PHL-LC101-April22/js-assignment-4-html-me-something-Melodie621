@@ -71,7 +71,6 @@ describe ("Grading Tests: ", function () {
 
    it("CSS mainHeading id is red", function() {
       let headingElement = container.getElementById("mainHeading");
-      console.log(window.getComputedStyle(headingElement).color);
       expect(window.getComputedStyle(headingElement).color).toEqual("red");
    })
 

@@ -38,6 +38,13 @@ describe ("Grading Tests: ", function () {
          let mainElements = container.body.getElementsByTagName("Main").length;
          let articleElements = container.body.getElementsByTagName("Article").length;
          let imageElements = container.body.getElementsByTagName("img").length;
+      
+      console.log(pElements);
+      console.log(headerElements);
+      console.log(footerElements);
+      console.log(mainElements);
+      console.log(articleElements);
+      console.log(imageElements);
 
          expect(pElements).toBeGreaterThanOrEqual(1);
          expect(headerElements).toBeGreaterThanOrEqual(1);
@@ -70,6 +77,7 @@ describe ("Grading Tests: ", function () {
    })
 
    it("CSS mainHeading id is red", function() {
+      console.log(container);
       let headingElement = container.getElementById("mainHeading");
       expect(window.getComputedStyle(headingElement).color).toEqual("red");
    })

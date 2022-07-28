@@ -1,1 +1,51 @@
-/* Write your CSS here! */
+img {
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+p {
+    color:slategrey;
+    text-indent: 50px;
+  }
+body {
+    background-color: thistle;
+    margin: 8px;
+    display:block;
+}
+
+h2 {
+    text-align: center;
+    background-color: cornflowerblue;
+    color:aliceblue
+  }
+p.paragraph{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px; 
+}
+p.funParagraph{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px; 
+    color: #2471a3    
+}
+#secondParagraph{
+    margin-top: -80px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px; 
+}  
+
+#mainHeading{
+    color:teal;
+    text-align: center;
+    font-family: "fascinate";
+    font-size: 60px;
+}
